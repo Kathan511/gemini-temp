@@ -10,4 +10,4 @@ question=st.text_input("Enter your question.")
 
 if question:
     response=model.generate_content(question)
-    st.markdown(response)
+    st.markdown(response.text)
