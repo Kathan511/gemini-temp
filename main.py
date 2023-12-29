@@ -3,4 +3,4 @@ import google.generativeai as genai
 
 
 st.header("Demo App")
-st.title("Hello worlds")
+st.title("Hello world")
